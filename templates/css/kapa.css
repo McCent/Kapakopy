@@ -36,7 +36,6 @@ hr {
 }
 
 #kapa-brand {
-    display:inline-block;
     align: left;
     padding-left: 20px;
 }
@@ -163,7 +162,7 @@ footer p {
     }
 
     .navbar-header {
-        display: none;
+
     }
 
     .navbar {
