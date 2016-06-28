@@ -32,10 +32,11 @@
 
 <body>
 <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
+                <img id="kapa-brand" src="img/Kapa_Logos/Kapa_gray_orange.jpg" alt="">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -43,28 +44,29 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">KAPA Management Services</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="gallery.html">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="wip.html">WIP</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
+                <div class=navbar-header">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html"><strong>Gallery</strong></a>
+                        </li>
+                        <li>
+                            <a href="wip.html">WIP</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                <!-- /.navbar-collapse -->
+                </div>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
         <!-- /.container -->
+        </div>
     </nav>
 
     <div class="container">
@@ -79,12 +81,12 @@
                     <hr>
                 </div>
                 <div class="col-md-6">
-                    <img class="img-responsive img-center" src="img/Kapa_logo_multicolor.jpg" alt="">
+                    <img class="img-responsive img-center" src="img/Kapa_Logos/Kapa_logo_large.jpg" alt="">
                 </div>
                 <div class="col-md-6">
                     <p>KAPA Management Services is an established building contractor working in south Dublin. We take on a wide variation of tenders including new builds, extensions and light commercial contracts.</p>
                     <p>All staff at KAPA Management Services are highly trained and experienced in their relevant fields, with strong emphasis put on quality of finish work.</p>
-                    <p>We pride ourselves on our unique ability to adapt to diverse market conditions, thus allowing to continually meet your varied needs and requirements from all aspects of property enhancement.</p>
+                    <!-- <p>We pride ourselves on our unique ability to adapt to diverse market conditions, thus allowing to continually meet your varied needs and requirements from all aspects of property enhancement.</p> -->
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -99,40 +101,31 @@
                     </h2>
                     <hr>
                 </div>
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="img/EK4G8360.JPG" alt="">
-                    <h3>Project
-                        <small>Name of Location</small>
-                    </h3>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="img/XD5F6226.jpg" alt="">
-                    <h3>Project
-                        <small>Name of Location</small>
-                    </h3>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="img/EK4G8446.JPG" alt="">
-                    <h3>Project
-                        <small>Name of Location</small>
-                    </h3>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="img/EK4G8461.JPG" alt="">
-                    <h3>Project
-                        <small>Name of Location</small>
-                    </h3>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="img/XD5F9531.JPG" alt="">
-                    <h3>Butterfield Avenue</h3>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="img/XD5F9651.JPG" alt="">
-                    <h3>Project
-                        <small>Name of Location</small>
-                    </h3>
-                </div>
+
+                    <div class="col-sm-4 text-center">
+                        <img class="img-responsive" src="img/Gallery_Pics/Ballytore_Road1/Ballytore_Road1.jpg" alt="">
+                        <a href="ballytoreRoad1.html"><h3>Ballytore Road 1</h3></a>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <img class="img-responsive" src="img/Gallery_Pics/Ballytore_Road2/Ballytore_Road2.JPG" alt="">
+                        <a href="ballytoreRoad2.html"><h3>Ballytore Road 2</h3></a>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <img class="img-responsive" src="img/Gallery_Pics/Butterfield_Avenue/Butterfield_Avenue.JPG" alt="">
+                        <a href="butterfieldAvenue.html"><h3>Butterfield Avenue</h3></a>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <img class="img-responsive" src="img/Gallery_Pics/Crannagh_Park2/Crannagh_Park2.JPG" alt="">
+                        <a href="crannaghPark.html"><h3>Crannagh Park</h3></a>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <img class="img-responsive" src="img/Gallery_Pics/Crannagh_Road/Crannagh_Road.JPG" alt="">
+                        <a href="crannaghRoad.html"><h3>Crannagh Road</h3></a>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <img class="img-responsive" src="img/Gallery_Pics/Kilmashogue/Kilmashogue.JPG" alt="">
+                        <a href="kilmashogue.html"><h3>Kilmashogue</h3></a>
+                    </div>
                 <div class="clearfix"></div>
             </div>
         </div>
